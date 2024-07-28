@@ -11,14 +11,14 @@ export const EXPERIENCES = [
     role: "Jr. Software Engineer",
     company: "Asconsoftech Indian Pvt. Ltd.",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, Vue.js and Node.js. Implemented RESTful APIs and integrated with MongoDB databases.`,
-    technologies: ["Javascript", "Typescript", "React.js", "Vue.js", "Node.js", "MySQL"],
+    technologies: ["Javascript", "Typescript", "React.js", "Vue.Js", "Node.js", "MySQL"],
   },
   {
     year: "2023 - 2024",
     role: "Associate Software Trainee",
     company: "Asconsoftech Indian Pvt. Ltd.",
     description: `Designed and developed user interfaces for web applications using Nuxt.js and Vue.js. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Javascript", "vue.Js", "nuxt.js","Node.js" ],
+    technologies: ["HTML", "CSS", "Javascript", "vue.Js", "nuxt.js" ],
   }
 ];
 
