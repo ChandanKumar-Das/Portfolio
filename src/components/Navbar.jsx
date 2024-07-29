@@ -34,10 +34,10 @@ const Navbar = () => {
     </a> */}
         <a href={pdf} target="_blank" download="Chandan's resume">
           <button
-            className=" flex items-center justify-between hover:bg-gray-300 hover:text-black cursor-pointer my-6 w-40 h-10 bg-[#431f47] text-[#E7E7E7] no-underline rounded border-none transition-all duration-500"
+            className=" flex items-center  hover:bg-gray-300 hover:text-black cursor-pointer my- w- h-10 bg-[#431f47] text-[#E7E7E7] no-underline rounded border-none transition-all duration-500"
             type="button"
           >
-            <h3 className="text-sm pl-2"> Download CV</h3>
+            <h3 className="text-sm pl-2 hidden md:block">Download CV</h3>
             <Lottie animationData={download} className="w-[50px] h-[110px] text-white"/>
           </button>
         </a>
