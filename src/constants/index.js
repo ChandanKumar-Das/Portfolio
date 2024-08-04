@@ -27,7 +27,7 @@ export const PROJECTS = [
     title: "gintaa",
     image: gintaa,
     description:
-      "A fully functional e-commerce website with features like restaurant onbording, CRUD menu, user authentication , filter menu ,search restaurants / foods . ",
+      "A fully functional Food delivery app at kolkata",
     technologies: ["HTML", "CSS", "Tailwind Css", "vue.js", "Nuxt.js","option API" , "strapi.js"],
     link:'https://gintaa.com/'
   }
