@@ -6,7 +6,7 @@ import { TbLetterC, TbLetterK } from "react-icons/tb";
 //import { useNavigate } from 'react-router-dom';
 import download from "../assets/download.json";
 import Lottie from "lottie-react";
-import pdf from "../assets/Chandan-frontend-devloper.pdf";
+import pdf from "../assets/Chandan_Frontend-dev.pdf";
 
 const Navbar = () => {
   return (
