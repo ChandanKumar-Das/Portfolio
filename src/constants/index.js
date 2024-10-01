@@ -1,5 +1,7 @@
 import gintaa from "../assets/projects/gintaa.jpeg";
-import admin from "../assets/projects/admin.jpeg";
+import admin from "../assets/projects/admin.png";
+import burger from "../assets/projects/burger.png";
+import Portfolio from "../assets/projects/portfolio.png";
 
 export const HERO_CONTENT = `I am a passionate React / Vue.js developer with a knack for crafting robust and scalable web applications. With 1 year of hands-on experience, I have honed my skills in front-end technologies like React and Vue.js, as well as back-end technologies like Node.js and MySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -35,9 +37,26 @@ export const PROJECTS = [
     title: "Admin-Panel",
     image: admin,
     description:
-      "Manageing the gintaa App",
-    technologies: ["HTML", "CSS", "Tailwind Css", "React.js","option API" , "strapi.js"],
+      "Admin panel for gintaa, streamlining the management of web activities, improving administrative efficiency and enhancing operational controls.  ",
+    technologies: ["HTML", "CSS", "Tailwind Css", "React.js","Redux" , "strapi.js"],
     link:'https://admin.gintaa.com/'
+  },
+  {
+    title: "Burger-Shop",
+    image: burger,
+    description:
+      "Developed a robust Burger Shop application featuring user authentication, advanced search filtering, and a seamless 'Add to Cart' functionality, providing a secure and personalized shopping experience.",
+    technologies: ["HTML", "CSS", "Tailwind Css", "React.js","Context Api" , ],
+    link:'https://burger-king-2y9bq1a82-new-projects-projects.vercel.app'
+  },
+
+  {
+    title: "Portfolio",
+    image: Portfolio,
+    description:
+      "Developed a robust Burger Shop application featuring user authentication, advanced search filtering, and a seamless 'Add to Cart' functionality, providing a secure and personalized shopping experience.",
+    technologies: ["HTML", "CSS", "Tailwind Css", "motion" ,  "React.js", 'Vite',"Constants" ],
+    link:'https://chandankumar-das.github.io/Portfolio/'
   }
 
 ];
