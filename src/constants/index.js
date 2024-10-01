@@ -1,5 +1,5 @@
 import gintaa from "../assets/projects/gintaa.jpeg";
-
+import admin from "../assets/projects/admin.jpeg";
 
 export const HERO_CONTENT = `I am a passionate React / Vue.js developer with a knack for crafting robust and scalable web applications. With 1 year of hands-on experience, I have honed my skills in front-end technologies like React and Vue.js, as well as back-end technologies like Node.js and MySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -30,6 +30,14 @@ export const PROJECTS = [
       "A fully functional Food delivery app at kolkata",
     technologies: ["HTML", "CSS", "Tailwind Css", "vue.js", "Nuxt.js","option API" , "strapi.js"],
     link:'https://gintaa.com/'
+  },
+  {
+    title: "Admin-Panel",
+    image: admin,
+    description:
+      "Manageing the gintaa App",
+    technologies: ["HTML", "CSS", "Tailwind Css", "React.js","option API" , "strapi.js"],
+    link:'https://admin.gintaa.com/'
   }
 
 ];
