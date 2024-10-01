@@ -47,7 +47,7 @@ export const PROJECTS = [
     description:
       "Developed a robust Burger Shop application featuring user authentication, advanced search filtering, and a seamless 'Add to Cart' functionality, providing a secure and personalized shopping experience.",
     technologies: ["HTML", "CSS", "Tailwind Css", "React.js","Context Api" , ],
-    link:'https://burger-king-2y9bq1a82-new-projects-projects.vercel.app'
+    link:'https://burger-king-sigma.vercel.app/'
   },
 
   {
@@ -56,7 +56,7 @@ export const PROJECTS = [
     description:
       "Developed a robust Burger Shop application featuring user authentication, advanced search filtering, and a seamless 'Add to Cart' functionality, providing a secure and personalized shopping experience.",
     technologies: ["HTML", "CSS", "Tailwind Css", "motion" ,  "React.js", 'Vite',"Constants" ],
-    link:'https://portfolio-8ywysmrl4-new-projects-projects.vercel.app'
+    link:'https://portfolio-chandankumardas.vercel.app/'
   }
 
 ];
