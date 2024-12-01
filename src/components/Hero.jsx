@@ -3,14 +3,7 @@ import profilePic from "../assets/coder.json";
 import Lottie from "lottie-react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
-// const container = (delay) => ({
-//     hidden: { x: -100, opacity: 0 },
-//     visible: {
-//         x: 0,
-//         opacity: 1,
-//         transition: { duration: 0.5, delay: delay }
-//     }
-// })
+
 
 const Hero = () => {
   return (

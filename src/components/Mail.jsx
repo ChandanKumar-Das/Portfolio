@@ -7,8 +7,7 @@ const Mail = ({ setVisible }) => {
     
     const initialValue = { name: "",email: "", message: ""}
     const formRef = useRef();
-    const [form, setForm] = useState({initialValue
-});
+    const [form, setForm] = useState({initialValue});
     const [loading, setLoading] = useState(false);
 
     const handleChange = (e) => {
