@@ -29,7 +29,7 @@ const Hero = () => {
               dragConstraints={{ left: -100, right: 100 }}
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              React.js / vue.js Developer 
+              React.js Developer 
             </motion.span>
             <motion.p
               whileInView={{ opacity: 1, x: 0 }}
