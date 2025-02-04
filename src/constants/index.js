@@ -2,6 +2,7 @@ import gintaa from "../assets/projects/gintaa.jpeg";
 import admin from "../assets/projects/admin.png";
 import burger from "../assets/projects/burger.png";
 import Portfolio from "../assets/projects/portfolio.png";
+import easyshop from "../assets/projects/easyshop.png";
 
 export const HERO_CONTENT = `I am a passionate React / Node JS developer with a knack for crafting robust and scalable web applications. With 1 year of hands-on experience, I have honed my skills in front-end technologies like React and Vue.js, as well as back-end technologies like Node.js and MySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -29,7 +30,7 @@ export const PROJECTS = [
     title: "gintaa",
     image: gintaa,
     description:
-      "A fully functional Food delivery app at kolkata",
+      "Gintaa is a food delivery platform that offers the lowest prices online with zero commission for restaurants, ensuring affordability for customers and better profits for eateries. It allows users to conveniently order food for delivery or takeaway, enhancing the local dining experience.",
     technologies: ["HTML", "CSS", "Tailwind Css", "vue.js", "Nuxt.js","option API" , "strapi.js"],
     link:'https://gintaa.com/'
   },
@@ -40,6 +41,14 @@ export const PROJECTS = [
       "Admin panel for gintaa, streamlining the management of web activities, improving administrative efficiency and enhancing operational controls.  ",
     technologies: ["HTML", "CSS", "Tailwind Css", "React.js","Redux" , "strapi.js"],
     link:'https://admin.gintaa.com/'
+  },
+  {
+    title: "Easy-Store",
+    image: easyshop,
+    description:
+      "Developed a feature-rich EasyStore application using React, Redux, and Tailwind CSS, integrating a public API for real-time data. Implemented user authentication, advanced search filtering, and seamless 'Add to Cart' functionality, ensuring a secure, efficient, and personalized shopping experience.",
+    technologies: ["HTML", "CSS", "Tailwind Css", "React.js","Context Api" ,"redux-toolkit" ],
+    link:'https://easyshop-by-chandan.vercel.app/'
   },
   {
     title: "Burger-Shop",
