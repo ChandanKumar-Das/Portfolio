@@ -1,12 +1,12 @@
 //import logo from "../assets/hp.png";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { TbLetterC, TbLetterK } from "react-icons/tb";
+import { TbLetterC, TbLetterD, TbLetterK } from "react-icons/tb";
 //import { CgFileDocument } from "react-icons/cg";
 //import { useNavigate } from 'react-router-dom';
 import download from "../assets/download.json";
 import Lottie from "lottie-react";
-import pdf from "../assets/chandankumardas-reactjs-developer.pdf";
+import pdf from "../assets/chandan-reactjs-developer.pdf";
 
 const Navbar = () => {
   return (
@@ -15,6 +15,7 @@ const Navbar = () => {
         {/* <img src={logo} alt="logo" className="mx-2 w-10"></img> */}
         <TbLetterC className="w-8 h-1/5" />
         <TbLetterK className="w-8 h-1/5" />
+        <TbLetterD className="w-8 h-1/5" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a href="https://www.linkedin.com/in/chandan-kumar-das-389262205/">
