@@ -6,7 +6,7 @@ import { TbLetterC, TbLetterD, TbLetterK } from "react-icons/tb";
 //import { useNavigate } from 'react-router-dom';
 import download from "../assets/download.json";
 import Lottie from "lottie-react";
-import pdf from "../assets/chandan-reactjs-developer.pdf";
+//import pdf from "../assets/chandan-reactjs-developer.pdf";
 
 const Navbar = () => {
   return (
@@ -33,7 +33,7 @@ const Navbar = () => {
         {/* <a href={pdf} className="flex items-center cursor-pointer">
       <CgFileDocument /> Resume
     </a> */}
-        <a href={pdf} target="_blank" download="Chandan's resume">
+        {/* <a href={pdf} target="_blank" download="Chandan's resume">
           <button
             className=" flex items-center  hover:bg-gray-300 hover:text-black cursor-pointer my- w- h-10 bg-[#431f47] text-[#E7E7E7] no-underline rounded border-none transition-all duration-500"
             type="button"
@@ -41,7 +41,7 @@ const Navbar = () => {
             <h3 className="text-sm pl-2 hidden md:block">Download CV</h3>
             <Lottie animationData={download} className="w-[50px] h-[110px] text-white"/>
           </button>
-        </a>
+        </a> */}
       </div>
     </nav>
   );
